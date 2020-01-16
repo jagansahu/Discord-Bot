@@ -2,8 +2,6 @@ import discord
 import random
 from discord.ext import commands
 
-from clear.py import *
-
 client = commands.Bot(command_prefix = '.')
 
 @client.event
