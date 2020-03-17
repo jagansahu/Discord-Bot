@@ -16,7 +16,7 @@ async def on_member_join(member):
 async def on_member_remove(member):
   print(f"{member} has left a server.")
 
-#Clears msgs
+#clears a given number of messages(used when spam lvl is high)
 @client.command()
 async def clear(ctx, amount=5):
   await ctx.channel.purge(limit=amount)
