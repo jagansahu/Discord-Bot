@@ -47,5 +47,6 @@ async def unban(ctx, *, member):
       return
 
 #Token received from discord server
+#This is where you would put your discord server token to use this wrapper
 client.run("NjY3MjI5MDM3NzE3ODgwODMy.XnBQlg.aMFDWG94TxGqmkyEVjyFSAWposU") 
 
